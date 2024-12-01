@@ -13,4 +13,11 @@ variable "HWCLOUD_AK" {
 variable "HWCLOUD_REGION" {
     description = "Region"
     type = string
+    default = ""
+}
+
+variable "HWCLOUD_PROJECTID" {
+    description = "Project ID"
+    type = string
+    default = ""
 }
