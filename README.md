@@ -6,4 +6,20 @@ Este repositorio contiene un conjunto de plantillas de Terraform diseñadas para
 
 El repositorio tiene la siguiente estructura:
 
-├── Templates/ │ ├── ecs_windows.tf │ ├── ecs_batch.tf │ ├── ecs_shared_sg.tf │ ├── vpc_peering.tf │ ├── vpc_subnet_sg.tf ├── libs.tf ├── provider.tf ├── variables.tf ├── terraform.tfvars (excluido del repositorio) └── README.md
+├── Templates
+│   ├── ecs
+│       └── main.tf
+│   ├── ecs-in-batch
+│       └── main.tf
+│   ├── ecs-sg-vpc-peering
+│       ├── ecs.tf
+│       ├── secgroup.tf
+│       ├── vpc-peering.tf
+│       └── vpc.tf
+│   ├── ecs-with-vpc-subnet
+│       └── main.tf
+├── libs.tf 
+├── provider.tf 
+├── variables.tf 
+├── terraform.tfvars (excluido del repositorio) 
+└── README.md
