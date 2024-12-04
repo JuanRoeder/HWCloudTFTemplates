@@ -6,18 +6,19 @@ Este repositorio contiene un conjunto de plantillas de Terraform diseñadas para
 
 El repositorio tiene la siguiente estructura:
 
+HWCloudTFTemplates
 ├── Templates
 │   ├── ecs
-│       └── main.tf
+│   │   └── main.tf
 │   ├── ecs-in-batch
-│       └── main.tf
+│   │   └── main.tf
 │   ├── ecs-sg-vpc-peering
-│       ├── ecs.tf
-│       ├── secgroup.tf
-│       ├── vpc-peering.tf
-│       └── vpc.tf
+│   │   ├── ecs.tf
+│   │   ├── secgroup.tf
+│   │   ├── vpc-peering.tf
+│   │   └── vpc.tf
 │   ├── ecs-with-vpc-subnet
-│       └── main.tf
+│   │   └── main.tf
 ├── libs.tf 
 ├── provider.tf 
 ├── variables.tf 
