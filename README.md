@@ -6,6 +6,7 @@ Este repositorio contiene un conjunto de plantillas de Terraform diseñadas para
 
 El repositorio tiene la siguiente estructura:
 
+```tree
 HWCloudTFTemplates
 ├── Templates
 │   ├── ecs
@@ -24,3 +25,4 @@ HWCloudTFTemplates
 ├── variables.tf 
 ├── terraform.tfvars (excluido del repositorio) 
 └── README.md
+```
